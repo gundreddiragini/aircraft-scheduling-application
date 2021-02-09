@@ -1,0 +1,227 @@
+.App {
+  text-align: center;
+  font-family: cursive;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.airCrafts {
+  width: 10%;
+  border: 1px black solid;
+}
+
+.section {
+  display:inline-block;
+  margin-top: 10px; 
+  margin-right: 10px;
+  min-height: 300px;
+  vertical-align: top;
+}
+
+.flights {
+  width: 30%;
+  border: 1px black solid;
+  padding-bottom: 10px;
+}
+
+.rotation {
+  width: 50%;
+}
+
+.pagination {
+  cursor: pointer;
+  display: inline-block;
+  width: 10%;
+  border: 1px solid black;
+}
+
+.origin {
+  text-align: left;
+}
+.destination {
+  text-align: right;
+}
+.selected {
+  width: 48%;
+}
+.allFlights {
+  width: 30%;
+}
+.flightData {
+  display: inline-block;
+  vertical-align: top;
+}
+.pd10 {
+  padding: 10px;
+}
+.pdLeft15Per {
+  padding-left: 15%;
+}
+.bd1 {
+  border: 1px solid black;
+}
+.bd2 {
+  border: 2px solid black;
+}
+.bdBottom2 {
+  border-bottom: 2px solid black;
+}
+.mb10 {
+  margin-bottom: 10px;
+}
+.textCenter {
+  text-align: center;
+}
+.percentageUtlization {
+  display: inline-block;
+  min-height: 50px;
+  border:1px solid black;
+}
+.timeAssessment {
+  width:100%;
+  color: grey;
+}
+.dispInlineBlock {
+  display: inline-block;
+}
+.w10 {
+  width: 10%;
+}
+.w50 {
+  width: 50%;
+}
+.w30 {
+  width: 30%;
+}
+.w25 {
+  width: 25%;
+}
+.w24 {
+  width: 24%;
+}
+.mH6px {
+  min-height: 6px;
+}
+.mB2 {
+  margin-bottom: 2px;
+}
+.h14 {
+  height: 14px;
+}
+.h5 {
+  height: 5px;
+}
+.vT {
+  vertical-align: top;
+}
+.bL2 {
+  border-left: 2px solid black;
+}
+.rotationalFlightId {
+  text-align: left;
+  padding-left: 15px;
+  padding-top: 10px;
+  position: relative;
+}
+.deselectFlight {
+  position: absolute;
+  right: 20px;
+  cursor: pointer;
+  color: red;
+  text-decoration: underline;
+}
+.pd25 {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.pd2 {
+  padding: 2px;
+}
+.alignLeft {
+  text-align: left;
+}
+.pdLR20 {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.timeDisplay {
+  font-size: 10px;
+  position: relative;
+  left: -8px;
+}
+.bdBottom2 {
+  border-bottom: 2px solid black;
+}
+.wCal {
+  width: calc(25% - 2px)
+}
+.w26 {
+  width: 26%;
+}
+.aircraftTitle {
+  cursor: pointer;
+}
+.arrow {
+  font-weight: 900;
+  font-size: 50px;
+  position: absolute;
+  top: 9%;
+  left: 40%;
+}
+.selectedParent {
+  position: relative;
+}
+.headerFont {
+  font-size: 20px;
+}
+.pdLeft65Per {
+  padding-left: 65%;
+}
+.w100 {
+  width: 100%;
+}
+.selectionDate {
+  background-color: aqua;
+}
+.headerColor {
+  background-color: beige;
+}
+.tableHeaderColor {
+  background-color: lightgrey;
+}
+.dateChanger {
+  cursor: pointer;
+}
+.w55 {
+  width: 55%;
+}
+.timeGraph {
+  border: 2px solid black;
+  height: 50px;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
